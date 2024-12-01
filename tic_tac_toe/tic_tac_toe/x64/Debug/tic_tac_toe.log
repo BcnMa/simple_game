@@ -1,0 +1,12 @@
+﻿  tic_tac_toe.cpp
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(56,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(56,20): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(59,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(59,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(59,21): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(59,12): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(60,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(60,42): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(60,27): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\07Code\tic_tac_toe\tic_tac_toe.cpp(60,12): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  tic_tac_toe.vcxproj -> D:\07Code\tic_tac_toe\x64\Debug\tic_tac_toe.exe

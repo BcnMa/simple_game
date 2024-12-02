@@ -1,6 +1,37 @@
 # include <graphics.h>
 # include <iostream>
 # include <string>
+# include <vector>
+
+class Animation {
+private:
+	int interval_ms = 0;
+	std::vector<IMAGE*> frame_list;
+
+public:
+	Animation(LPCTSTR path, int num, int interval) {
+		interval_ms = interval;
+
+		TCHAR path_file[256];
+		for (int i = 0; i < num; i++) {
+			_stprintf_s(path_file, path, i);
+
+			IMAGE* frame = new IMAGE();
+			loadimage(frame, path_file);
+			frame_list.push_back(frame);
+		}
+	}
+
+	~Animation() {
+		for (int i = 0; i < frame_list.size(); i++) {
+			delete frame_list[i];
+		}
+	}
+
+}; // class Animation
+
+
+
 
 int idx_current_anim = 0;
 const int PLAYER_ANIM_NUM = 6;
